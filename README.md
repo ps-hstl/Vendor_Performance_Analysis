@@ -2,10 +2,10 @@
 A data-driven analysis project to evaluate vendor performance, optimize inventory, and boost profitability using Python and Power BI.
 
 
-📊 Vendor Performance Analysis
+📊 Vendor Performance Analysis-->
 This project analyzes vendor and brand performance in a retail/wholesale environment by integrating purchase, sales, and freight data. Using Python, SQL, and Power BI, it identifies profitability drivers, evaluates vendor efficiency, and delivers actionable insights for inventory and vendor management.
 
-🧠 Problem Statement
+🧠 Problem Statement-->
 Retail and wholesale businesses often suffer from inefficient inventory turnover, vendor dependency, and unclear pricing strategies. This project aims to:
 
 Identify underperforming brands.
@@ -18,7 +18,7 @@ Assess inventory turnover and its financial impact.
 
 Compare profit margins of vendors to inform pricing and marketing strategies.
 
-📂 Project Structure
+📂 Project Structure-->
 plaintext
 Copy
 Edit
@@ -32,7 +32,8 @@ Edit
 ├── logs/                                 # Logging output for script monitoring
 └── data/                                 # Folder for raw CSVs (used in ingestion script)
 
-📈 Key Features
+📈 Key Features-->
+
 Automated Data Pipeline
 From raw CSVs to a unified SQLite database.
 
@@ -51,7 +52,8 @@ Slice and dice vendor performance by brand, profitability, and more.
 Actionable Insights Report
 Vendor Performance Report.pdf presents key takeaways, charts, and strategic recommendations.
 
-📊 KPIs & Metrics Computed
+📊 KPIs & Metrics Computed-->
+
 Gross Profit & Profit Margin
 
 Total Sales and Purchase Dollars
@@ -66,7 +68,8 @@ Impact of Bulk Buying
 
 Low-performing vs. High-performing Vendor Comparison
 
- Insights & Findings:
+ Insights & Findings-->
+
 📌 Top 10 Vendors account for 65%+ of total purchases
 📌 Bulk Purchasing reduces unit cost by up to 72%
 📌 $2.71M Unsold Inventory tied to low-performing vendors
