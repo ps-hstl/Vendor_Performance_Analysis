@@ -19,9 +19,7 @@ Assess inventory turnover and its financial impact.
 Compare profit margins of vendors to inform pricing and marketing strategies.
 
 📂 Project Structure-->
-plaintext
-Copy
-Edit
+
 ├── Exploratory Data Analysis.ipynb       # Initial data exploration and cleaning
 ├── Vendor Performance Analysis.ipynb     # Final analysis, visualizations, insights
 ├── get_vendor_summary.py                 # Merges tables, cleans data, and creates summary
