@@ -31,42 +31,6 @@ Edit
 ├── Vendor Performance Report.pdf         # Final report with findings and recommendations
 ├── logs/                                 # Logging output for script monitoring
 └── data/                                 # Folder for raw CSVs (used in ingestion script)
-⚙️ Setup Instructions
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/vendor-performance-analysis.git
-cd vendor-performance-analysis
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Requirements include: pandas, sqlalchemy, sqlite3, logging, os, time, jupyter
-
-Prepare data
-Place raw .csv files in the /data folder. Filenames will be used as table names in the SQLite database.
-
-Run Data Ingestion
-
-bash
-Copy
-Edit
-python ingestion_db.py
-Generate Vendor Summary
-
-bash
-Copy
-Edit
-python get_vendor_summary.py
-Explore the notebooks
-Open Exploratory Data Analysis.ipynb and Vendor Performance Analysis.ipynb in Jupyter to explore and visualize the cleaned dataset.
-
-View Power BI Dashboard
-Open vendor_performance.pbix in Power BI Desktop to interact with the dashboard.
 
 📈 Key Features
 Automated Data Pipeline
